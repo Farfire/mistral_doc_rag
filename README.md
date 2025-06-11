@@ -1,7 +1,7 @@
 # 🧠 Mistral Doc RAG
 
 Un projet full-stack avec un **frontend React** et un **backend Python**, déployé via Docker.  
-Ce projet permet d’interroger la documentation Mistral à travers une interface web conversationnelle.
+Ce projet repose sur un système de RAG (Retrieval-Augmented Generation) utilisant les modèles de Mistral et des embeddings vectoriels, permettant au chatbot d’interroger intelligemment toute la documentation officielle et le help center de Mistral.
 
 ## 📁 Structure du projet
 
