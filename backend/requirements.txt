@@ -1,0 +1,8 @@
+uvicorn
+python-dotenv
+mistralai
+pydantic
+python-multipart
+llama-index
+faiss-cpu
+fastapi
