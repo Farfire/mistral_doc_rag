@@ -211,7 +211,7 @@ const ChatInterface = () => {
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [models, setModels] = useState<string[]>([]);
-  const [selectedModel, setSelectedModel] = useState("mistral-large-latest");
+  const [selectedModel, setSelectedModel] = useState("mistral-medium-latest");
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const toast = useToast();
 
