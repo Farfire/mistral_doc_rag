@@ -110,6 +110,9 @@ async def chat(request: ChatRequest):
                 model=request.model, messages=conversation_history
             )
 
+            conversation_history.pop()
+            conversation_history.pop()
+
         conversation_history.append(
             {"role": "assistant", "content": chat_response.choices[0].message.content}
         )
